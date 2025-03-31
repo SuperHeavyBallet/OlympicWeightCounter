@@ -49,3 +49,174 @@ table {
 	border-spacing: 0;
 }
 /* #endregion */
+
+.weight-discs
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	
+}
+
+.weight-disc{
+	border: 1px solid black;
+	border-radius: 100px;
+	padding: 1rem 0.5rem ;
+	margin: 0.5rem;
+	font-size: x-small;
+
+
+}
+
+.weight-disc:hover{
+	cursor: pointer;
+	transform: scale(102%);
+}
+
+.red{
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+}
+
+.collar{
+	background-color: silver;
+}
+.white{
+	background-color: white;
+}
+
+.weight-display
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: 1px solid black;
+	height: 10rem;
+}
+
+.weight-barbell{
+	height: 0.3rem;
+	width: 2rem;
+	border: 1px solid black;
+	padding: 0.15rem 3rem;
+	background-color: silver;
+}
+
+.weight-barbell-rim{
+	height: 2rem;
+	width: 1.5rem;
+	border: 1px solid black;
+	
+	background-color: silver;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.barbell-weight-colour{
+	width: 0.8rem;
+	height: 100%;
+}
+
+.weight-barbell-sleeve
+{
+	height: 0.5rem;
+	width: 2.25rem;
+	border: 1px solid black;
+	padding: 0.2rem 3rem;
+	background-color: silver;
+	position: absolute;
+	left: 9.5rem;
+	z-index: -10;
+}
+
+.new-weight{
+	border: 1px solid black;
+	border-radius: 3px;
+	margin: 1rem 0;
+	
+}
+
+.big{
+	height: 1rem;
+
+}
+.new-weight.red{
+	padding: 3rem 0.45rem;
+	min-width: 0.5rem;
+}
+.new-weight.red.small{
+	padding: 1rem 0.05rem;
+	min-width: 0.2rem;
+	height: 0.7rem;
+}
+
+.new-weight.blue{
+	padding: 3rem 0.4rem;
+	min-width: 0.4rem;
+}
+.new-weight.blue.small{
+	padding: 0.85rem 0.05rem;
+	min-width: 0.2rem;
+	height: 0.7rem;
+}
+
+.new-weight.yellow{
+	padding: 3rem 0.3rem;
+	min-width: 0.3rem;
+}
+.new-weight.yellow.small{
+	padding: 0.8rem 0.05rem;
+	min-width: 0.2rem;
+	height: 0.7rem;
+}
+
+.new-weight.green{
+	padding: 3rem 0.2rem;
+	min-width: 0.2rem;
+}
+.new-weight.green.small{
+	padding: 0.75rem 0.05rem;
+	min-width: 0.2rem;
+	height: 0.6rem;
+	
+}
+
+.new-weight.white.five-kg{
+	padding:1rem 0.1rem;
+	min-width: 0.1rem;
+	height: 1rem;
+}
+.new-weight.white.small{
+	padding: 0.6rem 0.05rem;
+	min-width: 0.2rem;
+	height: 0.5rem;
+}
+
+.small{
+	border-radius: 2px;
+}
+
+.new-weight.collar{
+	padding: 0.6rem 0.1rem;
+	min-width: 1rem;
+	height: 0.3rem;
+	border-radius: 1px;
+}
+
+.new-weight:hover
+{
+	cursor: pointer;
+	background-color: black;
+}
+
