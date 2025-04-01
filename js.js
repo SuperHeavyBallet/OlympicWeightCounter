@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let finalTotalWeightKG = 0;
     let finalTotalWeightLBS = 0;
 
-        let barbellWeightColour = document.getElementById(".barbell-weight-colour");
+        let barbellWeightColour = document.getElementById("barbell-weight-colour");
     let barbellSelector = document.getElementById("barbell-select");
     barbellSelector.addEventListener("click", (e) =>
     {
@@ -66,7 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(elementID);
         let newWeight = document.createElement("div");
         newWeight.value = weightAmount;
-        //newWeight.textContent = weightAmount;
         newWeight.classList.add("new-weight");
         let weightClass = toString(weightAmount);
         newWeight.classList.add(weightAmount);
